@@ -122,3 +122,102 @@ section#primary {
         }
     }
 }
+
+.card-section-02 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // background: #005DFF;
+    .card__container {
+        display: flex;
+        flex-flow: column wrap;
+        padding: 1em;
+        .container-item-01 {
+            flex: 1;
+            // border: 2px solid black;
+            padding: 1em;
+            text-align: center;
+            .item-01-h4 {
+                color: rgb(243, 17, 130);
+            }
+            .item-01-h1 {
+                font-size: 2.5em;
+            }
+            // .item-01-h3 {}
+            // .item-01-p {}
+            .item-01-button {
+                width: 50%;
+                height: 3em;
+                background: rgb(243, 17, 130);
+                color: #FFF;
+                border: none;
+                border-radius: 1.5em;
+                text-transform: uppercase;
+                outline: none;
+                cursor: pointer;
+                &:hover {
+                    background: rgb(223, 6, 114);
+                    transition: all 1s ease-in-out;
+                }
+            }
+        }
+        .container-item-02 {
+            background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_first_image.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            flex: 1 0 35em;
+            // border: 2px solid blue;
+            text-align: center;
+            position: relative;
+            .item-02-content {
+                padding: 1em;
+                margin: 1em;
+                background: rgba(54, 11, 104, .8);
+                color: #FFF;
+                position: absolute;
+                bottom: 0;
+                .fa {
+                    font-size: 1.5em;
+                }
+            }
+        }
+        .container-item-03 {
+            flex: 1;
+            background: rgb(54, 11, 104);
+            // border: 2px solid red;
+            padding: 1em;
+            text-align: center;
+            color: #FFF;
+            .item-03-h4 {
+                color: rgb(243, 17, 130);
+            }
+            .item-03-h1 {
+                font-size: 1.8em;
+            }
+            // .item-01-h3 {}
+            // .item-01-p {}
+            .item-03-button {
+                width: 50%;
+                height: 3em;
+                background: rgb(243, 17, 130);
+                color: #FFF;
+                border: none;
+                border-radius: 1.5em;
+                text-transform: uppercase;
+                outline: none;
+                cursor: pointer;
+                &:hover {
+                    background: rgb(223, 6, 114);
+                    transition: all 1s ease-in-out;
+                }
+            }
+        }
+        .container-item-04 {
+            flex: 1 0 35em;
+            background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_second_image.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            // border: 2px solid green;
+        }
+    }
+}
