@@ -142,4 +142,125 @@ section#primary a {
     padding: 15px 60px;
   }
 }
+
+.card-section-02 {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card-section-02 .card__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  padding: 1em;
+}
+
+.card-section-02 .card__container .container-item-01 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 1em;
+  text-align: center;
+}
+
+.card-section-02 .card__container .container-item-01 .item-01-h4 {
+  color: #f31182;
+}
+
+.card-section-02 .card__container .container-item-01 .item-01-h1 {
+  font-size: 2.5em;
+}
+
+.card-section-02 .card__container .container-item-01 .item-01-button {
+  width: 50%;
+  height: 3em;
+  background: #f31182;
+  color: #FFF;
+  border: none;
+  border-radius: 1.5em;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+
+.card-section-02 .card__container .container-item-01 .item-01-button:hover {
+  background: #df0672;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.card-section-02 .card__container .container-item-02 {
+  background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_first_image.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 35em;
+          flex: 1 0 35em;
+  text-align: center;
+  position: relative;
+}
+
+.card-section-02 .card__container .container-item-02 .item-02-content {
+  padding: 1em;
+  margin: 1em;
+  background: rgba(54, 11, 104, 0.8);
+  color: #FFF;
+  position: absolute;
+  bottom: 0;
+}
+
+.card-section-02 .card__container .container-item-02 .item-02-content .fa {
+  font-size: 1.5em;
+}
+
+.card-section-02 .card__container .container-item-03 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: #360b68;
+  padding: 1em;
+  text-align: center;
+  color: #FFF;
+}
+
+.card-section-02 .card__container .container-item-03 .item-03-h4 {
+  color: #f31182;
+}
+
+.card-section-02 .card__container .container-item-03 .item-03-h1 {
+  font-size: 1.8em;
+}
+
+.card-section-02 .card__container .container-item-03 .item-03-button {
+  width: 50%;
+  height: 3em;
+  background: #f31182;
+  color: #FFF;
+  border: none;
+  border-radius: 1.5em;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+
+.card-section-02 .card__container .container-item-03 .item-03-button:hover {
+  background: #df0672;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.card-section-02 .card__container .container-item-04 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 35em;
+          flex: 1 0 35em;
+  background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_second_image.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 /*# sourceMappingURL=main.css.map */
